@@ -4,6 +4,12 @@
 - Wed Oct 28, 2026: v1 engine live — data pipeline, recency-weighted
   per-minute rates, minutes projection, stat distributions -> P(over/under),
   nightly settle + calibration log. Feeds the morning Pick6 build.
+  **DONE Oct 25, 2026 (3 days early).** v1 shipped: src/data (cached
+  client, derived pace), src/engine (rates/minutes/distribution/forecast),
+  src/cli.py, src/store.py, src/settle.py, 20 unit tests passing. First 8
+  real projections logged to the calibration store for the Oct 25 slate
+  (Maxey, Sabonis, Kessler, McDaniels, LaVine, Cade, Markkanen, Kawhi);
+  settle path verified against Harden's real Oct 24 box score.
 - Mon Nov 2, 2026: code-complete — gradient-boosting layer, usage
   redistribution for missing players, blowout-aware minutes, correlation-aware
   entry optimizer, historical backtest (2025-26 season), dashboard, GitHub
