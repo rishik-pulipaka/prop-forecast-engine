@@ -24,3 +24,10 @@
 - **Known v1 limits (accepted, v2 territory):** no injury-report input
   (a star sitting tonight is invisible to the engine), no pace/matchup
   adjustment in the rates themselves, injury-exit games drag minutes.
+
+## 2026-10-25 — Acceleration directive (Rishik)
+- Accelerate everything compressible: Phase 3 build (injury-report input first) and a full 2025-26 walk-forward backtest to manufacture graded sample fast.
+- Interim verdict mid-November: backtest + ~3 weeks of live grades. If they agree, engine dissent gains veto weight in the morning Pick6 build (Oct 25 lesson: engine projected Markkanen 23.3 over vs FP 21.6 / GameSim 17.0 under; its number was logged but not surfaced in the audit, and the under busted).
+- Engine trust weighted by its own sample size (Oct 25 lesson: Kessler P+R projected 27.9 off n=7 -> actual 9; Markkanen call came off n=44 and was right).
+- Never compressed: pre-tip immutable logging, no-peeking backtest discipline, live confirmation. Dec 5 final verdict unchanged.
+- Ownership: Rishik's project, his repo, his design calls. Builder executes; owner decides.
